@@ -9,7 +9,7 @@ If you are interested in science and space, that is a great tool. It saves you t
 
 ## Screenshots
 
-![App Screenshot]('Screenshot_10.png')
+![App Screenshot](Screenshot_10.png)
 
 ## How to use:
 
