@@ -20,7 +20,7 @@ try:
             nature_header = nature_header_link.text
 
             nature_data.append({'Title': nature_header,
-                         'Link': 'https://www.urania.edu.pl' + nature_link})
+                         'Link': 'https://www.nature.com' + nature_link})
 
             print('https://www.nature.com' + nature_link)
             print(index, nature_header)
@@ -82,7 +82,7 @@ try:
             sfn_header_title = sfn_header_link.text
 
             sfn_data.append({'Title': sfn_header_title,
-                                'Link': 'https://www.urania.edu.pl' + sfn_header_link['href']})
+                                'Link': sfn_header_link['href']})
 
             print(sfn_header_title)
             print(sfn_header_link['href'])
